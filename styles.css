@@ -1,0 +1,53 @@
+html body {
+  display: flex;
+  margin: 0;
+background-image: url('music.jpg');
+background-size: cover;
+background-position: center;
+  justify-content: center;
+}
+div .quo
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  position: fixed;
+  top:30vh;
+}
+#quote
+{
+  font-style: italic;
+  font-size: 50px;
+  color: darkred;
+}
+.quo h3
+{
+  padding-left: 400px;
+  font-size: 20px;;
+}
+.keyset {
+  display: flex;
+
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.key {
+  border: none 2px;
+  border-radius: 15px;
+  transition: all .8s ease-in;
+  padding: 30px;
+  margin-right: 40px;
+  font-size: 40px;
+  box-shadow: 3px 3px 3px 3px rgba(55, 55, 179, 0.6);
+  color:rgb(239, 181, 23);
+  text-shadow: 2px 2px rgb(239, 181, 23) ;
+}
+.playing
+{
+  transform:scale(1.5);
+  color: rgb(20, 21, 20);
+  
+  box-shadow: 5px 5px 5px 5px rgba(13, 46, 210, 0.5) ;
+}
